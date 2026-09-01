@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Privacy Policy — Sweep: No-Guess Minesweeper</title>
-<meta name="description" content="Privacy policy for Sweep: No-Guess Minesweeper. No accounts, no tracking, no analytics, no network — nothing leaves your device.">
+<meta name="description" content="Privacy policy for Sweep: No-Guess Minesweeper. No accounts, no tracking, no advertising — and anonymous usage counts you can switch off.">
 <style>
     :root{--bg:#fbfaf7;--card:#fff;--ink:#1c1b19;--ink2:#55524d;--ink3:#8a857e;--line:#e6e2db;--accent:#1f5fe0}
     @media (prefers-color-scheme:dark){:root{--bg:#141312;--card:#1c1b1a;--ink:#f2efea;--ink2:#b4afa7;--ink3:#807b74;--line:#2c2a28;--accent:#5aa9ff}}
@@ -24,62 +24,102 @@
 </head>
 <body><div class="wrap">
 <h1>Privacy Policy</h1>
-<p class="sub">Sweep: No-Guess Minesweeper · Last updated 31 August 2026</p>
+<p class="sub">Sweep: No-Guess Minesweeper · Last updated 1 September 2026</p>
 
-<p><strong>Short version: nothing leaves your device.</strong> Sweep has no
-accounts, no advertising, no analytics, and no network access at all. It does
-not collect, transmit or share any personal data — or any data of any kind.</p>
+<p><strong>Short version: the app has no accounts and does not identify you.</strong>
+Your boards, statistics and streaks stay on your device. The app can also send
+anonymous counts of how the game is used — never your name, your location, or
+anything that points back to you. In the EU, the UK and Switzerland we ask
+before sending anything; everywhere else it is on by default and there is a
+switch in Settings.</p>
 
 <h2>1. Who we are</h2>
 <p>Sweep: No-Guess Minesweeper is published by <strong>GadGames</strong>.
 Contact: <a href="mailto:support@tug.today">support@tug.today</a>.</p>
 
 <h2>2. Information we collect</h2>
-<p><strong>None.</strong> We do not ask for your name, email, phone number or
-location. There is no way to create an account, no advertising identifier is
-requested, and the app makes no network requests. On Android the app does not
-even hold the internet permission, which your device can verify.</p>
-<p>The app stores the following <em>only on your device</em>, using the
-operating system's normal app storage: your board in progress, statistics and
-streaks, achievements, and your settings. None of it is transmitted anywhere,
-and we cannot see any of it.</p>
+<p><strong>Nothing that identifies you.</strong> We do not ask for your name, email,
+phone number or location, there is no way to create an account, and no advertising
+identifier is requested. What we do receive is described in section 5.</p>
+<p>The app stores the following <em>only on your device</em>, using the operating
+system's normal app storage: your board in progress, statistics, streaks and
+achievements, your settings, and your coin balance. We cannot see any of it.</p>
 
-<h2>3. Purchases and advertising</h2>
-<p>There are no purchases of any kind in the app, and no advertising: no ads
-are shown, no advertising SDK is included, and nothing about you is shared with
-any advertising network.</p>
-<p>If that ever changes, this page will be updated before the version that
-changes it is released.</p>
+<h2>3. Purchases</h2>
+<p>Purchases are handled entirely by Apple or Google. We never see or receive your
+payment details. The store tells the app whether a purchase completed, so that it
+can unlock what you paid for, and reports sales to us only as aggregate figures
+that identify nobody.</p>
+<p>Restoring a purchase asks the store whether your account owns it. That exchange
+is between your device and the store; no account with us is created or needed.</p>
 
-<h2>4. Analytics and third parties</h2>
-<p>The app contains no analytics service, no crash-reporting service and no
-third-party SDK that processes data. Since the app never connects to the
-internet, no server — ours or anyone else's — ever hears from it.</p>
+<h2>4. Advertising</h2>
+<p><strong>The app contains no advertising.</strong> There is no advertising SDK in it,
+no advertising identifier is requested, and nothing about you is shared with any
+advertising network.</p>
+<p>If that ever changes, this page will be updated before the version that changes it
+is released.</p>
 
-<h2>5. Children</h2>
-<p>The app is suitable for all ages. It does not collect personal information
-from anyone, of any age.</p>
+<h2>5. Anonymous usage data</h2>
+<p>To learn which difficulties are graded wrong, where people put a board down, and
+whether the no-guess promise is actually landing, the app can send a small set of
+anonymous events: the app being opened, a board being started, cleared, lost or
+abandoned along with its difficulty and how long it took, a hint being taken and
+which rule it explained, a step onto a mine being taken back, the coin screen
+being opened, and a purchase or restore completing.</p>
+<p><strong>These events do not identify you.</strong> They carry a random string
+created on your device the first time the app runs. It is not your Apple ID or
+Google account, not your advertising identifier, and not derived from your
+hardware — it exists only so that sixty people clearing one board each can be
+told apart from one person clearing sixty. Deleting the app destroys it, and
+reinstalling produces a new one that cannot be connected to the old.</p>
+<p>The events are processed on our behalf by <strong>PostHog</strong>, which stores
+them without building any profile of a person. Your device's network address is
+visible to them in the moment of the request, as it is to any web server; for
+this app the location fields derived from it are stripped before storage, and no
+location is kept.</p>
 
-<h2>6. Keeping and deleting data</h2>
-<p>Everything you play — progress, statistics, streaks, achievements and
-settings — is held only on your device. Deleting the app deletes all of it.
-There is no account to close and no copy anywhere else. The app also offers
-"Reset all progress" in Settings if you want a clean slate without
-reinstalling.</p>
+<h2>6. Your choice, and how it differs by country</h2>
+<p><strong>In the EU, the EEA, the UK and Switzerland, we ask first.</strong> The
+app shows a plain question the first time you open it, with "yes" and "no"
+given equal weight and neither pre-selected. Nothing is recorded or sent unless
+you choose yes. The app decides whether to ask from your device's own language
+and region settings — no network request and no location lookup is involved, and
+the check errs towards asking.</p>
+<p><strong>Everywhere else it is on by default</strong>, and Settings &rarr; About
+&rarr; "Share anonymous usage data" turns it off.</p>
+<p><strong>Withdrawing is as easy as agreeing, and it is retroactive.</strong>
+Turning the switch off stops the recording, deletes anything still waiting to be
+sent, and discards the random string described in section 5 — so a later change
+of mind starts a new anonymous install rather than resuming the old one.</p>
 
-<h2>7. Your rights</h2>
-<p>Laws such as the GDPR and the CCPA give you rights to access, correct,
-export and delete personal data held about you. We hold no personal data about
-you: no account, no contact details, and no identifier that points to you.
-There is therefore nothing for us to produce or erase. If you would like this
-confirmed in writing, email us and we will reply.</p>
+<h2>7. Children</h2>
+<p>The app is suitable for all ages. It does not knowingly collect personal
+information from anyone, of any age, and the anonymous usage data in section 5 is
+not personal information and cannot be traced to a child or to anyone else.</p>
 
-<h2>8. Changes to this policy</h2>
-<p>If this policy changes, the date at the top changes with it, and any change
-that affects what the app does will be published before the version that makes
-the change is released.</p>
+<h2>8. Keeping and deleting data</h2>
+<p>Everything you play — progress, statistics, streaks, achievements, settings and
+coins — is held only on your device, so deleting the app deletes it. There is no
+account to close. The app also offers "Reset all progress" in Settings. The
+anonymous usage events in section 5 are kept for as long as they are useful for
+improving the game; because nothing in them identifies you, they cannot be traced
+back to a particular person or removed on request. If you would rather send none
+at all, switch the setting off.</p>
 
-<h2>9. Contact</h2>
+<h2>9. Your rights</h2>
+<p>Laws such as the GDPR and the CCPA give you rights to access, correct, export and
+delete personal data held about you. We hold no personal data about you: no account,
+no contact details, and no identifier that points to you. There is therefore nothing
+for us to produce or erase. If you would like this confirmed in writing, email us and
+we will reply.</p>
+
+<h2>10. Changes to this policy</h2>
+<p>If this policy changes, the date at the top changes with it, and any change that
+affects what the app does will be published before the version that makes the change
+is released.</p>
+
+<h2>11. Contact</h2>
 <p><a href="mailto:support@tug.today?subject=%5BPrivacy%5D%20Sweep">support@tug.today</a></p>
 
 <footer>GadGames · <a href="/">Games</a> · <a href="/support/">Support</a> · <a href="/privacy/sweep/">Privacy</a></footer>
